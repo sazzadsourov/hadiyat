@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* font family start */
+@font-face {
+  font-family: Sofia\Pro\Bold\Az;
+  src: url(../font/Sofia_Pro/Sofia\ Pro\ Bold\ Az.otf);
+}
+@font-face {
+  font-family: Sofia\Pro\Medium\Az;
+  src: url(../font/Sofia_Pro/Sofia\ Pro\ Medium\ Az.otf);
+}
+@font-face {
+  font-family: Sofia\Pro\Regular\Az;
+  src: url(../font/Sofia_Pro/Sofia\ Pro\ Regular\ Az.otf);
+}
+@font-face {
+  font-family: Recoleta-Regular;
+  src: url(../font/Recoleta/Recoleta-Regular.otf);
+}
+@font-face {
+  font-family: Recoleta-Bold;
+  src: url(../font/Recoleta/Recoleta-Bold.ttf);
+}
+/* font family end */
+/* header start */
+header {
+  background-color: #2a182e;
+}
+.navbar {
+  padding-top: 73px;
+  border: 1px solid #fff;
+}
+/* logo */
+.logo {
+  margin-left: 416px;
+  display: inline;
+}
+.logo h1 {
+  font-family: Recoleta-Regular;
+  font-size: 28px;
+  color: #f6f5f0;
+  display: inline;
+}
+/* nav */
+.nav {
+  display: inline;
+}
+.nav ul {
+  margin-left: 543px;
+  padding: 0;
+  display: inline;
+}
+.nav ul li {
+  margin-right: 88px;
+  list-style: none;
+  display: inline;
+}
+.nav ul li a {
+  font-family: Sofia\Pro\Regular\Az;
+  font-size: 18px;
+  color: #f6f5f0;
+  text-decoration: none;
+}
+.nav ul li a:hover {
+  font-family: Sofia\Pro\Bold\Az;
+  font-size: 18px;
+  color: #f6f5f0;
+  text-decoration: underline;
+}
+.nav ul li:last-child {
+  margin-right: 0 !important;
+}
+/* header end */
+/* hero start */
+.hero {
+  background-color: #2a182e;
+}
+.hero_box {
+  width: 975px;
+  height: 264px;
+  overflow: hidden;
+  margin-left: 416px;
+  border: 1px solid white;
+}
+.hero_box h2 {
+  font-family: Sofia\Pro\Regular\Az;
+  font-size: 72px;
+  font-weight: 400;
+  color: #f6f5f0;
+  margin: 0;
+  text-transform: capitalize;
+  line-height: 88px;
+}
+.hero_box span {
+  font-family: Sofia\Pro\Bold\Az;
+  font-size: 72px;
+  color: #f6f5f0;
+  text-transform: capitalize;
+}
+.hero_btn {
+  padding-bottom: 425px;
+}
+.hero_btn button {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  padding: 28px 44px;
+  color: #f8f8f8;
+  background-color: #f04e37;
+  border-radius: 8px;
+  margin-top: 64px;
+  margin-left: 416px;
+  border: 2px solid transparent;
+}
+.hero_btn button:hover {
+  border: 2px solid #f8f8f8;
+}
+.hero_img {
+}
+.hero_img img {
+  position: absolute;
+  width: 400.5px;
+  height: 534px;
+  left: 1359px;
+  top: 264px;
+  border: 1px solid red;
+}
+/* hero end */

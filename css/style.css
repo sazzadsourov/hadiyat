@@ -30,7 +30,7 @@ header {
 }
 .navbar {
   padding-top: 73px;
-  border: 1px solid #fff;
+  padding-bottom: 196px;
 }
 /* logo */
 .logo {
@@ -82,7 +82,6 @@ header {
   height: 264px;
   overflow: hidden;
   margin-left: 416px;
-  border: 1px solid white;
 }
 .hero_box h2 {
   font-family: Sofia\Pro\Regular\Az;
@@ -125,7 +124,7 @@ header {
   width: 400.5px;
   height: 534px;
   left: 1359px;
-  top: 264px;
-  border: 1px solid red;
+  top: 440px;
+  margin-right: 160px;
 }
 /* hero end */

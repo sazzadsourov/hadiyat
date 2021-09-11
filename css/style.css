@@ -266,3 +266,115 @@ header {
   margin: 0;
 }
 /*service section end */
+/* feature work start */
+.feature_work {
+  margin-bottom: 118px;
+}
+.feature_row {
+  width: 64px;
+  height: 4px;
+  background: #f04e37;
+  border-radius: 8px;
+  margin-top: 80px;
+  margin-left: 416px;
+}
+.feature_heading h1 {
+  font-family: Recoleta-Bold;
+  font-size: 64px;
+  font-weight: 700;
+  font-style: normal;
+  color: #2a182e;
+  margin: 0;
+  padding-top: 8px;
+  padding-bottom: 64px;
+  margin-left: 416px;
+}
+.all_img {
+  margin-left: 213px;
+  display: inline-block;
+  margin-right: 120px;
+}
+.fc_img {
+  width: 310px;
+  height: 655px;
+  margin-right: 38px;
+}
+.fc_img:last-child {
+  margin-right: 0;
+}
+.feature_text {
+  position: absolute;
+  width: 550px;
+  height: 645px;
+  display: inline-block;
+}
+.feature_text h3 {
+  font-family: Sofia\Pro\Regular\Az;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  color: #1b1c1e;
+  margin: 0;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.feature_text h2 {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+  color: #1b1c1e;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.feature_text p {
+  font-family: Sofia\Pro\Regular\Az;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #606060;
+  line-height: 32px;
+  margin: 0;
+}
+.feature_text h4 {
+  font-family: Sofia\Pro\Bold\Az;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #1b1c1e;
+  letter-spacing: -2px;
+  text-transform: capitalize;
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.list_item a {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: #1b1c1e;
+  margin-left: 16px;
+}
+.li_round {
+  width: 8px;
+  height: 8px;
+  background-color: #1b1c1e;
+  border-radius: 2px;
+  display: inline-block;
+}
+.list_all {
+  margin-bottom: 16px;
+}
+.feature_text_end {
+  margin-top: 64px;
+}
+.feature_text_end a {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 28px;
+  font-weight: 600;
+  font-style: normal;
+  color: #f04e37;
+}
+/* feature work end */

@@ -378,3 +378,162 @@ header {
   color: #f04e37;
 }
 /* feature work end */
+/* client section start */
+.client {
+  background-color: #2a182e;
+}
+.client_title {
+  margin-left: 416px;
+  padding-top: 16px;
+}
+.client_heading h1 {
+  padding-bottom: 0;
+}
+.client_bg {
+  position: relative;
+}
+.client_bg img {
+  margin-left: 304px;
+}
+.client_bg p {
+  width: 930px;
+  height: 240px;
+  position: absolute;
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: italic;
+  color: #bdb7ba;
+  line-height: 48px;
+  top: 0;
+  margin: 0;
+  margin-top: 64px;
+  margin-left: 416px;
+}
+.faq {
+  padding-bottom: 81px;
+}
+.fa_question {
+}
+.ques_head {
+  position: relative;
+}
+.ques_head h2 {
+  display: inline-block;
+}
+.ques_head img {
+  position: absolute;
+}
+/* client section end */
+/* footer start */
+footer {
+  background-color: #f04e37;
+}
+.all_footer {
+}
+.footer_text {
+  margin-left: 545px;
+  margin-right: 511px;
+}
+.footer_text h1 {
+  font-family: Recoleta-Bold;
+  font-size: 72px;
+  font-weight: 700;
+  font-style: normal;
+  color: #f6f5f0;
+  margin: 0;
+  padding-top: 88px;
+  margin-bottom: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.footer_text p {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+  color: #f6f5f0;
+  line-height: 33.6px;
+  margin: 0;
+}
+.footer_btn {
+  margin-top: 64px;
+  margin-bottom: 120px;
+  margin-left: 32px;
+  margin-right: 20px;
+}
+.footer_btn button {
+  width: 379px;
+  height: 88px;
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  border: none;
+  color: #ffffff;
+  border: 2px solid #f6f5f0;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: 0.3s;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.footer_btn button:last-child {
+  margin-right: 0;
+}
+.footer_btn button:hover {
+  color: #f04e37;
+  background-color: #f6f5f0;
+}
+.footer_btn button i {
+  margin-left: 10px;
+}
+.fsocial_icon {
+  margin-left: 408px;
+  padding-bottom: 64px;
+}
+.icon_text {
+  display: inline-block;
+}
+.icon_text p {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  color: #f6f5f0;
+  margin: 0;
+}
+.icon_text a {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  color: #f6f5f0;
+  text-decoration: none;
+}
+.f_icon {
+  display: inline-block;
+  margin-left: 233px;
+}
+.f_icon ul {
+  padding: 0;
+}
+.f_icon ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 32px;
+}
+.f_icon ul li:last-child {
+  margin-right: 0;
+}
+.f_icon ul li a {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: #f6f5f0;
+  text-decoration: none;
+}
+
+/* footer e buttonnd */

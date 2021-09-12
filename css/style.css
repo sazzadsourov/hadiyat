@@ -380,13 +380,13 @@ header {
 /* feature work end */
 /* client section start */
 /* client review start */
-.s_image {
+.client_image {
   width: 100%;
 }
-.s_image img {
-  width: 100%;
+.client_image img {
+  width: 75px;
+  height: 75px;
   cursor: pointer;
-  height: 400px;
 }
 /* client review end */
 .client {

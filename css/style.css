@@ -181,6 +181,12 @@ header {
   margin-left: 32px;
 }
 .img_one {
+  transition: 0.5s;
+}
+.s_box1:hover .img_one {
+  background-color: #f8f8f8;
+}
+.s_box2:hover .img_one {
   background-color: #f8f8f8;
 }
 .s_box1 h1 {

@@ -46,6 +46,7 @@ header {
 /* nav */
 .nav {
   display: inline;
+  margin-right: 383px;
 }
 .nav ul {
   margin-left: 543px;
@@ -59,12 +60,14 @@ header {
 }
 .nav ul li a {
   font-family: Sofia\Pro\Regular\Az;
+  font-family: 400;
   font-size: 18px;
   color: #f6f5f0;
   text-decoration: none;
 }
 .nav ul li a:hover {
-  font-family: Sofia\Pro\Bold\Az;
+  font-family: Sofia\Pro\Regular\Az;
+  font-weight: 700;
   font-size: 18px;
   color: #f6f5f0;
   text-decoration: underline;
@@ -398,6 +401,48 @@ header {
 }
 .client_heading h1 {
   padding-bottom: 0;
+}
+.client_img {
+  margin-top: 88px;
+  margin-bottom: 126px;
+  margin-left: 416px;
+  margin-right: 384px;
+}
+.client_img1 {
+  display: inline-block;
+  margin-right: 18px;
+}
+.client_text1 {
+  position: absolute;
+  display: inline-block;
+}
+.client_text1 h2 {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 32px;
+  font-weight: 500;
+  color: #f6f5f0;
+  margin: 0;
+}
+.client_text1 p {
+  font-family: Sofia\Pro\Medium\Az;
+  font-size: 24px;
+  font-weight: 500;
+  color: #bdb7ba;
+  margin: 0;
+}
+.client_cbtn {
+}
+.ccp,
+.ccn {
+  width: 40px;
+  height: 40px;
+  top: -65px !important;
+}
+.ccp {
+  left: 990px;
+  color: #f04e37;
+}
+.ccn {
 }
 .client_bg {
   position: relative;

@@ -115,10 +115,11 @@ header {
   border-radius: 8px;
   margin-top: 64px;
   margin-left: 416px;
-  border: 2px solid transparent;
+  border: none;
+  transition: 0.3s;
 }
 .hero_btn button:hover {
-  border: 2px solid #f8f8f8;
+  box-shadow: 0px 20px 5px 0 #f04e3726;
 }
 .hero_img {
 }
@@ -385,6 +386,11 @@ header {
   font-weight: 600;
   font-style: normal;
   color: #f04e37;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.feature_text_end a:hover {
+  text-decoration: underline;
 }
 /* feature work end */
 /* client section start */
@@ -400,6 +406,7 @@ header {
 /* client review end */
 .client {
   background-color: #2a182e;
+  padding-top: 120px;
 }
 .client_title {
   margin-left: 416px;
@@ -409,7 +416,7 @@ header {
   padding-bottom: 0;
 }
 .client_img {
-  margin-top: 88px;
+  margin-top: 67px;
   margin-bottom: 126px;
   margin-left: 416px;
   margin-right: 384px;
@@ -442,7 +449,7 @@ header {
 .ccn {
   width: 40px;
   height: 40px;
-  top: -65px !important;
+  top: 250px !important;
 }
 .ccp {
   left: 990px;
@@ -450,13 +457,19 @@ header {
 }
 .ccn {
 }
-.client_bg {
+.client_cottetion {
   position: relative;
 }
-.client_bg img {
-  margin-left: 304px;
+.client_cottetion img {
+  position: absolute;
+  top: 0;
+  left: 308px;
 }
-.client_bg p {
+.client_bg {
+}
+.client_bg img {
+}
+.client_cottetion p {
   width: 930px;
   height: 240px;
   position: absolute;
@@ -468,8 +481,9 @@ header {
   line-height: 48px;
   top: 0;
   margin: 0;
-  margin-top: 64px;
-  margin-left: 416px;
+}
+.client_img_text {
+  margin-top: 314px;
 }
 .faq {
   padding-bottom: 81px;
@@ -661,5 +675,18 @@ footer {
   color: #f6f5f0;
   text-decoration: none;
 }
+.f_icon ul li a:hover {
+  text-decoration: underline;
+}
 
 /* footer e buttonnd */
+/* Custom Cursor */
+.custom-cursor, .custom-cursor-dot {
+  position:fixed; z-index:999; top:0; left:0;
+  transform:translate(-50%, -50%);
+  pointer-events:none; opacity:0;
+}
+
+/* decorative */
+.custom-cursor {width:62px; height:62px; border:1px solid white; border-radius:50%;}
+.custom-cursor-dot {width:7px; height:7px; border-radius:50%; background-color:white;}

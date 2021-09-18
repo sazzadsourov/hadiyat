@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- extra css -->
+    <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/animate.css">
     <!-- css -->
@@ -26,9 +27,9 @@
             <!-- nav -->
             <div class="nav">
                 <ul>
-                    <li><a href="#">Capabilities</a></li>
-                    <li><a href="#">Case Studies</a></li>
-                    <li><a href="#">Say Hello!</a></li>
+                    <li><a href="#service">Capabilities</a></li>
+                    <li><a href="#feature_work">Case Studies</a></li>
+                    <li><a href="#footer">Say Hello!</a></li>
                 </ul>
             </div>
         </div>
@@ -50,7 +51,7 @@
     </section>
     <!-- hero section end -->
     <!-- service section start -->
-    <section class="service">
+    <section class="service" id="service">
         <div class="all_service">
             <div class="service_row"></div>
             <div class="service_heading">
@@ -103,7 +104,7 @@
                     </div>
                     <!-- single box three end -->
                     <!-- single box four start -->
-                    <div class="s_box2" data-aos="fade-left">
+                    <div class="s_box2" data-aos="fade-left" data-aos-duration="2000">
                         <img src="img/service/Group 3384.png" class="img-fluid img_one" alt="hadiyat">
                         <h1>Design Sprints</h1>
                         <h2>Starts at USD $5,000</h2>
@@ -121,7 +122,7 @@
                 <!-- pair box start 2 -->
                 <div class="pair_box">
                     <!-- single box three start -->
-                    <div class="s_box1" data-aos="flip-left">
+                    <div class="s_box1" data-aos="fade-right">
                         <img src="img/service/Group 3385.png " class="img-fluid img_one" alt="hadiyat">
                         <h1>Digital Product Design (UX/UI)</h1>
                         <h2>Starts at USD $1,000</h2>
@@ -134,7 +135,7 @@
                     </div>
                     <!-- single box three end -->
                     <!-- single box four start -->
-                    <div class="s_box2" data-aos="flip-left">
+                    <div class="s_box2" data-aos="fade-left">
                         <img src="img/service/Group 3386.png" class="img-fluid img_one" alt="hadiyat">
                         <h1>Brand Identity Design</h1>
                         <h2>Starts at USD $500</h2>
@@ -154,10 +155,10 @@
     </section>
     <!-- service section end -->
     <!-- feature work start -->
-    <section class="feature_work" data-aos="zoom-in-right">
+    <section class="feature_work" id="feature_work" data-aos="zoom-in-right">
         <div class="feature_row"></div>
         <div class="feature_heading">
-            <h1>featured work</h1>
+            <h1>Featured Work</h1>
         </div>
         <div class="all_img">
             <img src="img/feature work/Home-mockup.png" class="img-fluid fc_img" alt="hadiyat">
@@ -202,35 +203,51 @@
                 <h1>Client Testimonials</h1>
             </div>
         </div>
-        <div class="client_bg">
-            <img src="img/client/Frame 30.png" alt="">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eros semper risus porta, nec
-                aliquet felis cursus. Duis a erat vestibulum, congue ante sit amet, pharetra lacus. Nunc elit ipsum,
-                malesuada vitae commodo eu, lacinia id ligula. Nulla vehicula metus diam. </p>
-        </div>
+
         <!-- client img start -->
+        <div class="client_cottetion">
+            <img src="img/client/Frame 30.png" alt="">
+        </div>
         <div class="client_img">
             <div id="client_control" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <!-- client single one start -->
                     <div class="carousel-item active">
-                        <div class="client_img1">
-                            <img src="img/client/Ellipse 70.png" alt="">
+                        <div class="client_cottetion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eros semper
+                                risus porta, nec
+                                aliquet felis cursus. Duis a erat vestibulum, congue ante sit amet, pharetra lacus. Nunc
+                                elit ipsum,
+                                malesuada vitae commodo eu, lacinia id ligula. Nulla vehicula metus diam. </p>
                         </div>
-                        <div class="client_text1">
-                            <h2> John Doe</h2>
-                            <p>Workplace Name</p>
+                        <div class="client_img_text">
+                            <div class="client_img1">
+                                <img src="img/client/Ellipse 70.png" alt="">
+                            </div>
+                            <div class="client_text1">
+                                <h2> John Doe</h2>
+                                <p>Workplace Name</p>
+                            </div>
                         </div>
                     </div>
                     <!-- client single one end -->
                     <!-- client single one start -->
                     <div class="carousel-item ">
-                        <div class="client_img1">
-                            <img src="img/client/Ellipse 70.png" alt="hadiyat">
+                        <div class="client_cottetion">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique eros semper
+                                risus porta, nec
+                                aliquet felis cursus. Duis a erat vestibulum, congue ante sit amet, pharetra lacus. Nunc
+                                elit ipsum,
+                                malesuada vitae commodo eu, lacinia id ligula. Nulla vehicula metus diam. </p>
                         </div>
-                        <div class="client_text1">
-                            <h2> John Doe</h2>
-                            <p>Workplace Name</p>
+                        <div class="client_img_text">
+                            <div class="client_img1">
+                                <img src="img/client/Ellipse 70.png" alt="">
+                            </div>
+                            <div class="client_text1">
+                                <h2> John Doe</h2>
+                                <p>Workplace Name</p>
+                            </div>
                         </div>
                     </div>
                     <!-- client single one end -->
@@ -257,7 +274,7 @@
         </div>
         <div class="fa_question">
             <!-- question one start -->
-            <div class="ques_head" data-aos="zoom-in-left">
+            <div class="ques_head">
                 <h2>What is the average price of engagement?
                     <img src="img/client/gg_arrow-right.png" alt="hadiyat">
                 </h2>
@@ -273,7 +290,7 @@
             </div>
             <!-- question one end -->
             <!-- question two start -->
-            <div class="ques_head" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="300">
+            <div class="ques_head">
                 <h2>How long will it take to finish the project?
                     <img src="img/client/gg_arrow-right.png" class="faq_img2" alt="hadiyat">
                 </h2>
@@ -284,7 +301,7 @@
             </div>
             <!-- question two end -->
             <!-- question three start -->
-            <div class="ques_head" data-aos="zoom-in-right" data-aos-delay="100" data-aos-offset="350">
+            <div class="ques_head">
                 <h2>What to expect on our first call?
                     <img src="img/client/gg_arrow-right.png" class="faq_img3" alt="hadiyat">
                 </h2>
@@ -299,7 +316,7 @@
             </div>
             <!-- question three end -->
             <!-- question four start -->
-            <div class="ques_head" data-aos="zoom-in-up" data-aos-delay="100" data-aos-offset="300">
+            <div class="ques_head">
                 <h2>Payment terms?
                     <img src="img/client/gg_arrow-right.png" class="faq_img4" alt="hadiyat">
                 </h2>
@@ -309,7 +326,7 @@
             </div>
             <!-- question four end -->
             <!-- question five start -->
-            <div class="ques_head" data-aos="zoom-in-right" data-aos-delay="100" data-aos-offset="400">
+            <div class="ques_head">
                 <h2>Money back guarantee?
                     <img src="img/client/gg_arrow-right.png" class="faq_img5" alt="hadiyat">
                 </h2>
@@ -321,7 +338,7 @@
     </section>
     <!-- client section end -->
     <!-- footer start -->
-    <footer class="wow slideInRight">
+    <footer class="wow slideInRight" id="footer">
         <div class="all_footer">
             <div class="footer_text">
                 <h1>Have a Project? Let’s talk</h1>
@@ -348,9 +365,12 @@
             </div>
         </div>
     </footer>
+
     <!-- footer end -->
     <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/wow.min.js"></script>

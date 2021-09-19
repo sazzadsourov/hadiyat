@@ -37,6 +37,9 @@ header {
   margin-left: 416px;
   display: inline;
 }
+.logo a {
+  text-decoration: none;
+}
 .logo h1 {
   font-family: Recoleta-Regular;
   font-size: 28px;

@@ -95,11 +95,12 @@ header {
   text-transform: capitalize;
   line-height: 88px;
 }
-.hero_box span {
+.hero_box strong {
   font-family: Sofia\Pro\Bold\Az;
   font-size: 72px;
   color: #f6f5f0;
   text-transform: capitalize;
+  display: inline;
 }
 .hero_btn {
   padding-bottom: 425px;
@@ -492,7 +493,7 @@ header {
 .fa_question {
   margin-left: 416px;
   margin-right: 374px;
-  padding-bottom: 250px;
+  padding-bottom: 250 px;
 }
 /*  */
 .client_accordion {
